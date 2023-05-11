@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+    <form>
+        <ul>
+            <li>
+             <label for="name">name</label>
+             <input type="text" name="name" id="name" placeholder="enter your full name">
+            </li>
+
+            <li>
+              <label for="email">Email</label>
+              <input type="email" name="mail" id="mail" placeholder="sofiat@gmail.com">
+            </li>
+
+            <li>
+             <label for="phone">moblie number</label>
+             <input type="tel" name="phone" id="phone" placeholder="08012345678">
+            </li>
+
+            <li>
+            <label for="pwd">password</label>
+            <input type="password" name="pass" id="pwd" placeholder="********">
+            </li>
+
+            <li>
+             <label for="address">home address</label>
+             <textarea name="address" id="address" placeholder="No 1 akinwummi" p cols="30" rows="4"></textarea>
+            </li>
+
+            <li>
+            <label for="dob">date of birth</label>
+            <input type="date" name="dob" id="dob" placeholder="03/12/2000">
+            </li>
+
+            <li>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+
+                <input type="radio" name="gender" id="female" checked>
+                <label for="female">female</label>
+            </li>
+            <li>
+                <label for="country">country</label>
+
+                <select>
+                    <optgroup label="Africa">
+                    <option value="ng">Nigeria</option>
+                    <option value="tg">togo</option>
+                    <option value="eg">Egypt</option>
+                    </optgroup>
+
+                    <optgroup label="Asia">
+                        <option value="ch">china</option>
+                        <option value="jp">japan</option>
+                        <option value="ml">malaysia</option>
+                    </optgroup>
+                    <optgroup label="south America">
+                       <option value="ar">argentina</option>
+                       <option value="Br">brazil</option>
+                       <option value="co">colombia</option>
+                    </optgroup>
+
+                    <optgroup label="North America">
+                    <option value="ca">canada</option>
+                    <option value="me">mexico</option>
+                    <option value="ja">jamaica</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="ge">Germany</option>
+                        <option value="po">poland</option>
+                        <option value="ne">Netherlands</option>
+                    </optgroup>
+                </select>
+                
+                <label for="geographycal">country</label>
+                <select>
+                    <optgroup label="south west">
+                        <option value="lg">Lagos</option>
+                        <option value="oy">oyo</option>
+                        <option value="ek">ekiti</option>
+                    </optgroup>
+
+                    <optgroup label="south east">
+                        <option value="ab">abia</option>
+                        <option value="an">anambra</option>
+                        <option value="im">imo</option>
+                    </optgroup>
+
+                    <optgroup label="south south">
+                    <option value="Ed">Edo</option>
+                    <option value="Ba">Balyelsa</option>
+                    <option value="De">Delta</option>
+                    </optgroup>
+
+                    <optgroup label="North west">
+                     <option value="Ka">Kaduna</option>
+                     <option value="So">Sokoto</option>
+                     <option value="Ka">Kano</option>
+                    </optgroup>
+
+                    <optgroup label="North east">
+                        <option value="Ba">Bauchi</option>
+                        <option value="Bo">Borno</option>
+                        <option value="Go">Gombe</option>
+                    </optgroup>
+
+                    <optgroup label="North Central">
+                      <option value="Be">Benue</option>
+                      <option value="Ko">Kogi</option>
+                      <option value="Kw">Kwara</option>
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+              <input type="checkbox" name="accept" id="accept">
+              <label for="accept">accept all terms and condition</label>
+            </li>
+            
+            <li>
+               <input type="submit" value="sign up">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
